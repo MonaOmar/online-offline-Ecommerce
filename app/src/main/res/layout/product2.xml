@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img3"
+        tools:ignore="MissingConstraints">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$1000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center">
+
+    </TextView>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="description"
+        android:textSize="30dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="iphone 12  Max , Graphite  and pro 12 MP camera system ,Ultra _wide:f/2.4 aperture and memory 256 GB and 6GB RAM ,Network 5G and processor is APPle A14 Bionic"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+1"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#98AFC7">
+        </Button>
+        <Button
+            android:id="@+id/restt"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Reset"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="@color/teal_700">
+
+        </Button>
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="-1"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#98AFC7">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#98AFC7"
+        android:text="ADD TO CART"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Make It Easy</string>
+    <string name="log_in">Log In</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="hint">Email or User Name</string>
+    <string name="hint1">password</string>
+    <string name="OFFERS">Offers</string>
+    <string name="FORGET_PASSWORD">Forget Password</string>
+    <string name="or">OR</string>
+    <string name="makeiteasy">MAKE IT EASY</string>
+    <string name="enter_your_name_or_email">Enter Your Name oR Email</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="id1">signup</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="todo">todo</string>
+    <string name="todo4">todo4</string>
+    <string name="todo2">todo2</string>
+    <string name="todo3">todo3</string>
+    <string name="iphone_13">iphone_13</string>
+    <string name="_26_999_le">26.999</string>
+    <string name="describes">describes</string>
+
+
+</resources>
